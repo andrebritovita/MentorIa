@@ -1,7 +1,7 @@
 package com.andrebritovita.mentoria.data.model
 
 data class ChatRequest(
-    val model: String = "gpt-4o-mini", // ou outro modelo
+    val model: String = "gpt-4o-mini",
     val messages: List<Message>,
     val temperature: Double = 0.7
 )
